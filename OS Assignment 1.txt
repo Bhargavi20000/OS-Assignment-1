@@ -1,0 +1,62 @@
+Problem 1 :
+
+a)cd ~
+  ls
+  mkdir -p LinuxAssignment
+  cd LinuxAssignment
+
+b)touch file.1txt
+  cat > file1.txt
+  cat file1.txt
+
+c)mkdir docs
+
+d)cp file1.txt docs/file2.txt
+
+e)chmod 704 docs/file2.txt or chmod 744 docs/file2.txt
+  chown $(bhargavi) file2.txt
+
+f)ls
+  ls /
+
+g)find . -type f -name "*.txt"
+  grep "i" file2.txt
+
+h)date
+
+i)hostname -I
+  ping www.linkedIn.com
+
+j)zip -r docs.zip docs
+  unzip docs.zip -d extracted_docs
+
+k) using vi editor
+vi text1.txt
+Esc +i(Insert)
+Esc+ :wq
+
+
+ or
+nano file1.txt
+  sed -i 's/Bhargavi/Dimple/g' file1.txt
+
+-----------------------------------------------------------------
+
+Problem 2:
+
+a)head -n 10 data.txt
+
+b)tail -n 5 data.txt
+
+c)head -n 15 number.txt
+
+d)tail -n 3 numbers.txt
+
+e)tr 'a-z' 'A-Z' <input.txt> output.txt
+
+f)sort -u duplicate.txt
+
+g)sort fruit.txt | uniq -c
+
+
+
